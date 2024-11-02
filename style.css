@@ -25,10 +25,12 @@ h1 {
 .card-title {
     color: #00ff00;
     font-weight: bold;
+    text-align: right; /* Align card titles to the right */
 }
 
 .card-text {
     color: #ffffff;
+    text-align: right; /* Align card text to the right */
 }
 
 .btn-success {
