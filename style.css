@@ -1,0 +1,52 @@
+body {
+    font-family: 'Vazir', sans-serif;
+    background: linear-gradient(to bottom right, #000, #2e2e2e);
+}
+
+h1 {
+    color: #00ff00;
+    text-shadow: 2px 2px 5px #00cc00;
+}
+
+.card {
+    background-color: #3c3c3c;
+    border: 2px solid #00ff00; /* Neon green */
+    box-shadow: 0 4px 20px rgba(0, 255, 0, 0.5);
+}
+
+.card-title {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #ffffff;
+}
+
+.btn-success {
+    background-color: #00ff00;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #00cc00;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+/* Responsive styles */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .card {
+        margin: 10px;
+    }
+}
